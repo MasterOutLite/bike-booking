@@ -1,0 +1,65 @@
+.root {
+  height: 83px;
+  padding: 12px 18px;
+
+  background: #E8E8E8;
+  border-radius: 10px;
+  color: #333333;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.subText {
+  font-weight: 400;
+  font-size: 8px;
+  color: #717171;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+
+.available {
+  border: 2px solid #6FCF97;
+}
+
+.busy {
+  border: 2px solid #F2994A;
+}
+
+.unavailable {
+  border: 2px solid #EB5757;
+}
+
+.opacity {
+  opacity: 50%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justifyContentSB {
+  justify-content: space-between;
+}
+
+.alignSelfEnd {
+  align-self: flex-end;
+}
+
+

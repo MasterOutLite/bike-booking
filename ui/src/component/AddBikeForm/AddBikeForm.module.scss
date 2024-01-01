@@ -1,0 +1,17 @@
+.root {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.description {
+  height: 100%;
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+}
+
+

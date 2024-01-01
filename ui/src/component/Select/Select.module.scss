@@ -1,0 +1,28 @@
+.root {
+
+}
+
+.relative{
+  position: relative;
+}
+
+.drop {
+  position: absolute;
+  z-index: 10;
+  opacity: 100%;
+  top: 100%;
+  left: 0;
+
+  padding: 4px 6px;
+
+  border-radius: 10px;
+  background: #fff;
+}
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}

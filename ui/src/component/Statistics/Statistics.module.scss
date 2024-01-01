@@ -1,0 +1,19 @@
+.root {
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.value {
+  font-weight: 700;
+}
